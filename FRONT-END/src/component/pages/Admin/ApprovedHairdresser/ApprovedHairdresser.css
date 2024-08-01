@@ -1,0 +1,10 @@
+.approve-btn {
+    background-color: #28a745;
+    color: white;
+    border-color: #28a745;
+  }
+
+.approve-btn:hover {
+    background-color: #28a745;
+    border-color: #28a745;
+  }

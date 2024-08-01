@@ -1,0 +1,13 @@
+Server tarafında 1 dönüyorsa olumludur.
+Server tarafında 2 dönüyorsa hata mesajıdır.
+Server tarafında nadir durumlarda 3 dönüyorsa (Kullanıcı adı kullanılıyor, hizmet kullanılıyor vb şeylerdir)
+Sunucu ve Reactın .ENV dosyalarından kesinlikle hostingler ve mail gönderme sistemi için olan yerlerin değişmesi şarttır.
+Server tarafındaki payment sistemindeki PayTR hesabının keylerinin değişmesi kesinlikle şarttır. (hairdresser klasöründe PayTR controlleri)
+QR kod sistemi .ENV deki kayıtlı adrese göre çalışmaktadır. Yani hosting kurulmadan databasenin temizlenmesi önerilir. (İleride hosting adresi değişmesi durumunda tüm kullanıcıların QR larını baştan oluşturan bir API yazılabilir.)
+Tablolar birbirlerine ilişkili olduğu için Staff silme işlemlerinde öncelikle Staff'ın kayıtlı olduğu randevular ve hizmetler silinmesi önerilir.
+- Yönetim Paneli kullanıcı adı : Admin ---- Şifre : asdasd123
+Server tarafında controller kısmında tüm sistemler için (hairdresser, user, admin) functionlar karmaşıklığı önlemek adına ayrı dosyalarda tutulmuştur.
+Server tarafında router kısmındaki tüm API linkleri için (hairdresser, user, admin) yönlendirme linkleri karmaşıklığı önlemek adına ayrı dosyalarda tutulmuştur.
+Reactın .ENV dosyasından PayTR için ödeme tutarları değiştirilebilmektedir.
+Tüm resimler Server kısmındaki /uploads klasöründe tutulmaktadır. QR kodlar kullanıcının uniq kodundan oluşmaktadır. /hairdresser/user-service/(uniqcode) linkine göndermektedir bu yüzden sistemin faliyete geçmeden önce hostingin .ENV den ayarlanması şarttır.
+

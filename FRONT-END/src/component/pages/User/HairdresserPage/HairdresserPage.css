@@ -1,0 +1,27 @@
+.kuaför-bilgi {
+    margin-top: 20px;
+  }
+  .kuaför-baslik {
+    font-size: 24px;
+  }
+  .kuaför-puan {
+    color: #ffc107; /* Bootstrap'un sarı rengi */
+    font-size: 18px;
+  }
+  .btn-randevu {
+    background-color: #007bff; /* Bootstrap'un mavi rengi */
+    color: white;
+  }
+  .yorumlar {
+    margin-top: 20px;
+  }
+  .yorum-kutu {
+    background-color: #f8f9fa; /* Bootstrap'un varsayılan gri tonu */
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #dee2e6; /* Bootstrap'un gri border rengi */
+  }
+  .yorum-puan {
+    color: #ffc107; /* Bootstrap'un sarı rengi */
+    font-weight: bold;
+  }

@@ -1,0 +1,37 @@
+.subscription-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+.subscription-card:hover {
+    transform: scale(1.05);
+}
+.card-header-subscribe {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card-body-subscribe {
+    text-align: center;
+}
+.price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+}
+.btn-subscribe {
+    background-color: #007bff;
+    border: none;
+    padding: 0.75rem 1.25rem;
+}
+.subscription-status {
+    background-color: #e9ecef;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
